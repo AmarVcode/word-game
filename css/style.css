@@ -1,0 +1,98 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: black;
+  padding-bottom: 200px;
+}
+body h1 {
+  color: lime;
+  text-shadow: 0px 0px 10px lime;
+  font-size: 3rem;
+  word-spacing: 40px;
+  text-transform: uppercase;
+}
+body main {
+  width: 800px;
+  margin: auto;
+}
+body main ol li {
+  text-align: left;
+  font-size: 1.2rem;
+  padding: 0.5em;
+  color: lime;
+  text-shadow: 0px 0px 10px lime;
+}
+
+.container {
+  width: 450px;
+  min-height: 500px;
+  margin: 8em auto;
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px;
+  justify-content: space-around;
+  align-items: center;
+}
+.container div {
+  width: 50px;
+  height: 50px;
+  border: 1px solid lime;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  text-shadow: 0px 0px 10px lime;
+  font-size: 2rem;
+  overflow: hidden;
+  background-color: lime;
+}
+.container div input {
+  height: 100%;
+  width: 100%;
+  font-size: 2rem;
+  text-align: center;
+}
+
+button {
+  padding: 1em;
+  width: 300px !important;
+  margin-bottom: 5em;
+  font-size: 1rem;
+  border: 2px solid lime;
+  color: lime;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 500ms;
+}
+button:hover {
+  background-color: lime;
+  color: black;
+}
+
+#box {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.right {
+  color: lime;
+  font-size: 1.2rem;
+  text-shadow: 0px 0px 10px lime;
+  padding: 1em;
+}
+
+.wrong {
+  color: red;
+  font-size: 1.2rem;
+  text-shadow: 0px 0px 10px red;
+  padding: 1em;
+}
+
+/*# sourceMappingURL=style.css.map */
