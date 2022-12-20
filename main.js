@@ -6,8 +6,11 @@ function check(){
     let box=document.getElementById("box");
     box.innerHTML=null
     for(i=0;i<div.length;i++){
+        let v = div[i].value
+        v=v.toLowerCase()
+
         console.log(div[i].value)
-        if(div[i].value==div[i].name){
+        if(v==div[i].name){
             let d=document.createElement("div");
             d.setAttribute("class","right");
             a=i+1
