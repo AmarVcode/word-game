@@ -95,4 +95,8 @@ button:hover {
   padding: 1em;
 }
 
+.invisible {
+  visibility: hidden;
+}
+
 /*# sourceMappingURL=style.css.map */
